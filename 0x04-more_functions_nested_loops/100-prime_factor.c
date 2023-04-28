@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * main - entry point
- * Return 0
+ * main - outputa the largest prime number
+ * Return: 0
  */
 
 int main(void)
 {
-	insigned long int a, b = 612852475143;
+	unsigned long int a, b = 612852475143;
 
 	for (a = 3; a < 782849; a = a + 2)
 	{
